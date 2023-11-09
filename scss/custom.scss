@@ -1,9 +1,21 @@
 // Custom.scss
 // This is the file you will want to update to customize your page.
 
-// Import Google fonts here
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3&display=swap');
 
+$font-family-sans-serif: 'Source Sans 3', sans-serif;
+$headings-font-family: 'Libre Baskerville', serif;
 
+$primary:       #A04ADD;
+$secondary:     #3B53C7;
+$success:       #A4D882;
+$info:          #59C1EF;
+$warning:       #FFF689;
+$danger:        #E5446D;
+$light:         #f2f2f2;
+$dark:          #181853;
+
+$navbar-dark-hover-color: $primary;
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
 
